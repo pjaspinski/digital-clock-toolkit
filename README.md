@@ -11,7 +11,7 @@ If you need other functions then create an issue or make a PR.
 ## How to use
 
 -   Make sure that you have Python installed
--   Install the only required dependency: `pip install pybluez2`
+-   Install the only required dependency: `pip install git+https://github.com/airgproducts/pybluez2.git`
 -   Run `python digital-clock-toolkit.py`
 
 If you run into `A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond` error, make sure that you are close to clock so that Bluetooth connection can be made.
